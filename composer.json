@@ -1,0 +1,27 @@
+{
+    "name": "filipeforattini/php-singleton-pattern",
+    "description": "Implementation of Singleton's design pattern with PHP",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Filipe Forattini",
+            "email": "filipeforattini1@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "FForattini\\Patterns\\Singleton\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
